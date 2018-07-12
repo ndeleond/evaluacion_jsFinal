@@ -1,0 +1,41 @@
+body{
+    background: #f2f2f1;
+}
+#contenedor{
+    background: #c2c2bb;
+    width: 65%;
+    margin: 20px auto;
+}
+/*Table*/
+table,td {
+    margin-left: 10px;
+    border: 1px solid black;
+    background: #c4c2c2;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+label{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#codigo,#nombre,#nota{
+    width: 95%;
+    margin: auto 10px;
+}
+#boton{
+    margin-left: 15px;
+    text-align: center;
+}
+#registrar,#promedio,#notaMayor,#notaMenor{
+    padding: 5px;
+    width: 20%;
+    color: #ffffff;
+    background-color: rgb(70, 1, 53);
+}
+#registrar:hover,#promedio:hover,#notaMayor:hover,#notaMenor:hover{
+    background-color: rgb(155, 8, 118);
+}
